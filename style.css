@@ -1,0 +1,273 @@
+/* reset code */
+html, body,
+h1, h2, h3, h4, h5, h6,
+a, p, span,
+em, small, strong,
+sub, sup,
+mark, del, ins, strike,
+abbr, dfn,
+blockquote, q, cite,
+code, pre,
+ol, ul, li, dl, dt, dd,
+div, section, article,
+main, aside, nav,
+header, hgroup, footer,
+img, figure, figcaption,
+address, time,
+audio, video,
+canvas, iframe,
+details, summary,
+fieldset, form, label, legend,
+table, caption,
+tbody, tfoot, thead,
+tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.container{
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+.display-content{
+    display: flex;
+    align-items: center;
+}
+
+.header-part{
+    width: 60%;
+}
+.header-img{
+    width: 40%;
+}
+.header-img img{
+    width: 50%;
+}
+.mission{
+    width:30%;
+    margin-left: 3%;
+    height: 350px;
+    padding: 5px 30px;
+    border-radius: 25px;
+}
+.mission h5{
+    font-size: 20px;
+    font-weight:bold;
+}
+
+
+
+.mission img{
+    width:40%;
+    margin: 10px 0px;
+}
+.mission-content{
+    background-color: #4F9DA6;
+}
+.vision{
+    background-color: #FF5959;
+}
+.goal{
+    background-color: #FFF4D6;
+}
+
+.name{
+    margin-top:80px;
+    border-left:3px solid #FF5959 ;
+    padding-left: 5px;
+}
+.name h1{
+    font-size:40px;
+    color:#333333;
+    
+}
+.name h2{
+    font-size:40px;
+    color: #FFAD5A;
+    margin-top: 5px;
+    
+}
+p{
+    color:#3E3E3E;
+    margin-top:10px;
+    width:90%;
+    font-size: 20px;
+}
+button{
+    margin-top:15px;
+    background:#FF5959;
+    border-radius:5px;
+    border:1px solid #FF5959;
+    font-size: 15px;
+    line-height:15px;
+    color:white;
+    width:150px;
+    padding:8px 0px;
+    font-weight: bold;
+}
+#main-content h1{
+    margin:50px 0px;
+    text-align:center;
+    font-size: 30px;
+    color:#333333;
+}
+#main-content span{
+    color: #FFAD5A;
+}
+
+#about-me{
+    margin: 50px 0px;
+}
+.about,.community-info{
+    width: 60%;
+}
+.about-img {
+    width: 40%;
+}
+.about-img img{
+    width:100%;
+    float: right;
+    padding-right: 30px;
+}
+.about h5,.community-info h5{
+    font-size: 25px;
+    color: #4F9DA6;
+}
+.community-info{
+
+}
+.community-img{
+    width:40%;
+}
+.community-img img{
+    width: 100%;
+}
+.copyright{
+    text-align:center;
+    padding: 20px 0px;
+    background-color: #0B0D17;
+}
+
+.copyright h3{
+    font-style: italic;
+    font-size: 28px;
+    color: white;
+    padding-bottom: 10px;
+}
+.copyright h3 span{
+    color:#FF5959 ;
+}
+.copyright small{
+    font-size: 15px;
+    color: #D9DBE1;
+    
+}
+
+
+
+.contact-us{
+    margin-top: 110px;
+    width: 80%;
+    background-color: #EDF3F9;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 84px;
+    position: relative;
+    /*! bottom: -11px; */
+    /*! top: 120px; */
+}
+.contact-heading{
+    padding-top: 68px;
+    margin-bottom: 65px;
+}
+.contact-us h5{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    color: #262525;
+    text-align: center;
+
+}
+.contact-us p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #262525;
+    text-align: center;
+    padding-top: 30px;
+    width: 100% !important;
+
+}
+
+
+.form-field{
+    float: left;
+    margin-bottom: 4%;
+    width: 48%;
+
+}
+.contact-form textarea{
+    width: 95%;
+    padding: 15px 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8F8F8F;
+
+    border: 0.3px solid #979292;
+    border-radius: 5px;
+    background: #fff;
+}
+.submit{
+    padding-bottom: 67px;
+    padding-top: 30px;
+    text-align: center;
+}
+.submit input[type="submit"] {
+    text-align: center;
+    padding: 0px 10px;
+    background-color: #056C7E;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    display: inline-block;
+    height: 50px;
+
+    width: 100%;
+
+    border: none;
+    text-transform: uppercase;
+}
+.form-field input[type="text"]{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    width: 90%;
+    padding: 10px 20px;
+    border: 0.3px solid #979292;
+    color: #8F8F8F;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.username,.email{
+    margin-right: 4%;
+}
+.contact-us-background{
+    position: relative;
+    background-image: url(../img/path.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 890px;
+    background-position: bottom;
+}
+
+.clear-element{
+    clear: both;
+}
